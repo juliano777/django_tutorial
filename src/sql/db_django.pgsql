@@ -1,0 +1,3 @@
+CREATE ROLE user_django LOGIN ENCRYPTED PASSWORD '123';
+
+CREATE DATABASE db_django OWNER user_django;
